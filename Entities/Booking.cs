@@ -34,6 +34,7 @@ namespace NIX_2.Entities
             this.CheckIn = DateTime.Parse(checkIn);
             this.CheckOut = DateTime.Parse(checkOut);
         }
+        
         public Booking(string id, string clientId, string roomId, string checkIn, string checkOut)
         {
             this.ID = Convert.ToInt32(id);
